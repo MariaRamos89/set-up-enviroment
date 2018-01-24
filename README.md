@@ -2,6 +2,14 @@
 
 This repository are just a few scripts to install the following:
 
+## Before installing
+
+```shell
+sudo apt-get install git cmake build-essential g++ gcc python-pip python-dev curl tmux vim
+```
+
+__WARNING__: Clone the repository in the personal directory. Don't create special folders.
+
 ## Vim
 
 - Pathogen [https://github.com/tpope/vim-pathogen](https://github.com/tpope/vim-pathogen)
@@ -20,4 +28,8 @@ This repository are just a few scripts to install the following:
 
 - Powerline-shell [git clone https://github.com/banga/powerline-shell](git clone https://github.com/banga/powerline-shell) 
 
+## Known issues
+
+If tmux and powerline have symbol problems, follow the instruction from this web page:
+[powerline_fonts](https://github.com/powerline/fonts)
 
