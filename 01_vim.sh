@@ -18,8 +18,8 @@ fi
 if [ ! -d ~/.vim/bundle/syntax ]; then
     echo -e "${GREEN} ################## Installing C++ Syntax Highlighting ###################### ${END}"
     git clone https://github.com/octol/vim-cpp-enhanced-highlight.git /tmp/vim-cpp-enhanced-highlight
-    mkdir -p ~/.vim/bundle/syntax/
-    mv /tmp/vim-cpp-enhanced-highlight/after/syntax/cpp.vim ~/.vim/bundle/syntax/cpp.vim
+    mkdir -p ~/.vim/syntax/
+    mv /tmp/vim-cpp-enhanced-highlight/after/syntax/cpp.vim ~/.vim/syntax/cpp.vim
     rm -rf /tmp/vim-cpp-enhanced-highlight
 fi
 
