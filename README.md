@@ -1,4 +1,4 @@
-#Setting Ubuntu enviroment
+# Setting Ubuntu enviroment
 
 This repository are just a few scripts to install the following:
 
