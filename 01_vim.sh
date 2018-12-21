@@ -25,7 +25,7 @@ fi
 
 if [ ! -d ~/.vim/bundle/vim-colorschemes ]; then
     echo -e "${GREEN} ################## Installing Colors ###################### ${END}"
-    git clone https://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes
+    git clone https://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/colorschemes
 fi
 
 if [ ! -d ~/.vim/bundle/vim-airline ]; then
