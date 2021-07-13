@@ -1,24 +1,5 @@
-call plug#begin('~/.vim/autoload/')
-
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'sheerun/vim-polyglot'
-Plug 'tpope/vim-surround'
-Plug 'Raimondi/delimitMate'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-syntastic/syntastic'
-Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'rafi/awesome-vim-colorschemes'
-Plug 'preservim/nerdcommenter'
-Plug 'ervandew/supertab'
-Plug 'preservim/nerdtree'
-
-call plug#end()
-
-map <C-n> :NERDTreeToggle<CR>
-let g:NERDTreePos = "left"
-
+"pathogen
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
@@ -28,6 +9,8 @@ set nu
 nmap <F8> :TagbarToggle<CR>
 
 filetype off                  " required
+
+execute pathogen#infect()
 
 "All of your Plugins must be added before the following line
 filetype plugin indent on
@@ -80,3 +63,4 @@ let g:cpp_class_scope_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 
 set backspace=indent,eol,start
+
