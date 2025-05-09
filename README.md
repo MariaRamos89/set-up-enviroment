@@ -4,13 +4,14 @@ This repository are just a few scripts to install the following:
 
 ## Before installing
 
-```shell
-sudo apt-get install git cmake build-essential g++ gcc python-pip python-dev curl tmux vim
-```
-
-This is included in the file `all.sh`.
-
 __WARNING__: Clone the repository in the personal directory. Don't create special folders.
+
+## Installing all
+
+To install the three tools, a script has been done called `all.sh`.
+
+It requires one argument: the type of linux you are running.
+Currently only options `debian`, `ubuntu` or `arch` are supported.
 
 ## Vim
 
@@ -28,7 +29,7 @@ __WARNING__: Clone the repository in the personal directory. Don't create specia
 
 ## Powerline-shell
 
-- Powerline-shell [git clone https://github.com/banga/powerline-shell](git clone https://github.com/banga/powerline-shell) 
+- Powerline-shell [https://github.com/banga/powerline-shell](https://github.com/banga/powerline-shell) 
 
 ## Known issues
 
